@@ -1,0 +1,31 @@
+# Unreal Engine file types.
+*.uasset filter=lfs diff=lfs merge=binary -text lockable
+*.umap filter=lfs diff=lfs merge=lfs -text lockable
+*.locres filter=lfs diff=lfs merge=binary -text
+*.locmeta filter=lfs diff=lfs merge=binary -text
+
+# Steam Audio files
+*.phononscene filter=lfs diff=lfs merge=binary -text
+*.probebox filter=lfs diff=lfs merge=binary -text
+*.probebatch filter=lfs diff=lfs merge=binary -text
+*.bakedsources filter=lfs diff=lfs merge=binary -text
+
+# Binaries
+*.exe filter=lfs diff=lfs merge=binary -text
+*.dll filter=lfs diff=lfs merge=binary -text
+*.rcc filter=lfs diff=lfs merge=binary -text
+
+# FMOD
+*.bank filter=lfs diff=lfs merge=binary -text
+*.wav filter=lfs diff=lfs merge=binary -text
+*.mp3 filter=lfs diff=lfs merge=binary -text
+*.ogg filter=lfs diff=lfs merge=binary -text
+*.flac filter=lfs diff=lfs merge=binary -text
+
+# Icons
+*.png filter=lfs diff=lfs merge=binary -text
+*.ico filter=lfs diff=lfs merge=binary -text
+*.icns filter=lfs diff=lfs merge=binary -text
+
+# Movies
+*.bk2 filter=lfs diff=lfs merge=binary -text
